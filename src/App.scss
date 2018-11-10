@@ -1,0 +1,10 @@
+@import '~normalize.css/normalize.css';
+@import './Styles/variables';
+
+.app {
+    margin: 0 20px;
+    @media (min-width: $screen-lg-min) {
+        width: 1280px;
+        margin: 0 auto;
+    }
+}

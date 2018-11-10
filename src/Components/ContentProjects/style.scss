@@ -1,0 +1,45 @@
+.content-projects {
+
+    &__item {
+        margin-bottom: 60px;
+        position: relative;
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 30px;
+            height: 2px;
+            background: rgb(21, 34, 61);
+            display: block;
+            left: 0;
+            bottom: -30px;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+            &:after {
+                content: unset;
+            }
+        }
+    }
+
+    &__item__link {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        font-size: 18px;
+        
+        &:hover,
+        &:focus {
+            text-decoration: underline;
+        }
+    }
+
+    &__item__description {
+        font-size: 20px;
+        font-weight: 300;
+        
+        margin: 15px 0 0;
+        display: block;
+    }
+}

@@ -1,1 +1,1 @@
-export { default } from './ContentProjects'
+export { default } from './ContentProjects';
